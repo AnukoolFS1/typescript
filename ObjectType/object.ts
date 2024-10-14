@@ -25,3 +25,12 @@ console.log(employee)
 
 // To explicitly specify properties of the object, you first use the following syntax to
 // declare the employee object
+
+let employee1: {firstName: string, lastName: string, age: number, jobTitle: string};
+
+employee = {
+    firstName: "Anukool",
+    lastName: "Chauhan",
+    age:25,
+    jobTitle: "Web Developer"
+}

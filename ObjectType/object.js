@@ -16,4 +16,14 @@ let employee = {
     jobTilte: 'Web Developer'
 };
 console.log(employee);
-employee.firstName = "jane";
+// employee.firstName = "Jane" // error property does not exist
+// console.log(employee.description) // error property does not exist instead of undefined
+// To explicitly specify properties of the object, you first use the following syntax to
+// declare the employee object
+let employee1;
+employee = {
+    firstName: "Anukool",
+    lastName: "Chauhan",
+    age: 25,
+    jobTitle: "Web Developer"
+};
