@@ -1,9 +1,16 @@
 //string
-var _name = "Anukool";
-var profession = 'Full Stack Developer';
-var profile = "Hello, I am ".concat(_name, " and I am a ").concat(profession);
+let _name = "Anukool";
+let profession = 'Full Stack Developer';
+let profile = `Hello, I am ${_name} and I am a ${profession}`;
 console.log(profile);
+//predefined values
+let $name = "Anukool";
+// $name = "Chauhan" // throw an error type '"Chauhan"' is not assignable to tyep '"Anukool"'
+// predefined multiple values
+let singer = "KK";
+singer = "Arijit";
+//singer = "Justin" // Type '"Justin"' is not assignable to type '"KK" | "Arijit"'.
 /////////////////////////////////////////////////////////////////////
 //Boolean
-var pending = true;
+let pending = true;
 pending = false;
