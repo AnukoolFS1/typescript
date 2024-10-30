@@ -15,4 +15,4 @@ let signature2 = (a:string, b:boolean):string => {
     }
 }
 
-console.log(signature2("data", false))
+console.log(signature2("data", true))

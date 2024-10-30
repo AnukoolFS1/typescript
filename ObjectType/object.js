@@ -1,3 +1,4 @@
+"use strict";
 //The typescript object type represents all values that are not in primitive types.
 // the following are primitive types in Typescript
 /**

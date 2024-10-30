@@ -1,3 +1,4 @@
+"use strict";
 // let arrayName: type[]
 let skill = ["Problem Solving", "Programming"];
 skill[1] = "Html";

@@ -1,3 +1,4 @@
+"use strict";
 //string
 let _name = "Anukool";
 let profession = 'Full Stack Developer';

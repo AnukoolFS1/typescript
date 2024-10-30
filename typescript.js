@@ -1,3 +1,4 @@
+"use strict";
 // String type
 let message = `"Hello, TypeScript"`;
 // Number type

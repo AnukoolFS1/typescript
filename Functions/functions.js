@@ -1,3 +1,4 @@
+"use strict";
 function signature(a, b) {
     console.log(a, b);
     return a;
@@ -11,4 +12,4 @@ let signature2 = (a, b) => {
         return "you have choose to not to show data";
     }
 };
-console.log(signature2("data", false));
+console.log(signature2("data", true));
