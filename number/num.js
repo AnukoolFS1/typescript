@@ -10,4 +10,4 @@ let octal = 0o10;
 // hexadecimal number
 let hexadecimal = 0XA;
 // Big Integer
-let big = 92521358789654645n;
+let big = 925213587896546452323423n;
