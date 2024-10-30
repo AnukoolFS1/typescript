@@ -19,6 +19,6 @@ let arr4: [string, number, boolean?] = ["anukool", 24]
 // provide it or not both ways it will work
 
 
-// method would still change the discipline of tuple and convert it to a normal array
+// method will still disturb the discipline of tuple and convert it to a normal array
 arr3.push("hello");
 console.log(arr3)
