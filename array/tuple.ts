@@ -21,4 +21,4 @@ let arr4: [string, number, boolean?] = ["anukool", 24]
 
 // method will still disturb the discipline of tuple and convert it to a normal array
 arr3.push("hello");
-console.log(arr3)
+console.log(arr3);
