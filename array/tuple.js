@@ -1,3 +1,4 @@
+"use strict";
 // normal array (with offcourse the type string and number)
 let arr = [25, "anukool"];
 // tuple
@@ -13,6 +14,6 @@ tuple.ts:5:51 - error TS2322: Type 'string' is not assignable to type 'boolean'.
 // optional tuple
 let arr4 = ["anukool", 24];
 // provide it or not both ways it will work
-// method would still change the discipline of tuple and convert it to a normal array
+// method will still disturb the discipline of tuple and convert it to a normal array
 arr3.push("hello");
 console.log(arr3);
