@@ -1,3 +1,3 @@
 enum naming {abc, abcd}
 
-let a = "123"
+console.log(naming)
