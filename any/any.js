@@ -8,3 +8,8 @@
 const json = `{"latitude":10.11, "longitude": 12.12}`;
 const currentLocation = JSON.parse(json);
 console.log(currentLocation);
+// In this example, the "currentLocation" variable is assigned to ann object
+// returned by the "JSON.parse()" function.
+// However, when you use the currentLocation to access object properties,
+// Typescript also won't carry any check:
+console.log(currentLocation.x);
