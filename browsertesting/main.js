@@ -1,4 +1,3 @@
-"use strict";
 // let parsedNum: string = "abc"
 // console.log(isNaN(parsedNum))
 let validNum = "123";

@@ -1,4 +1,3 @@
-"use strict";
 let price = 9.95; // floating points
 // decimal numbers
 let counter = 0;

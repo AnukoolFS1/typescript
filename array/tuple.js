@@ -1,4 +1,3 @@
-"use strict";
 // normal array (with offcourse the type string and number)
 let arr = [25, "anukool"];
 // tuple

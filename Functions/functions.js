@@ -1,4 +1,3 @@
-"use strict";
 function signature(a, b) {
     console.log(a, b);
     return a;
