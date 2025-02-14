@@ -1,4 +1,4 @@
-//The typescript object type represents all values that are not in primitive types.
+//The typescript "object" type represents all values that are not in primitive types.
 
 // the following are primitive types in Typescript
 /**
@@ -28,9 +28,11 @@ console.log(employee)
 
 let employee1: {firstName: string, lastName: string, age: number, jobTitle: string};
 
-employee = {
+employee1 = {
     firstName: "Anukool",
     lastName: "Chauhan",
     age:25,
     jobTitle: "Web Developer"
 }
+
+console.log(employee1)
