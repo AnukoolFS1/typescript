@@ -1,0 +1,85 @@
+🔹 1. TypeScript Compiler (tsc) Commands
+
+The tsc command is used to compile TypeScript files into JavaScript.
+🏗️ Basic Compilation
+
+tsc filename.ts
+
+    Compiles filename.ts into filename.js.
+
+tsc filename.ts --outFile output.js
+
+    Compiles filename.ts into output.js.
+
+⚡ Compilation with Different Targets
+
+tsc filename.ts --target ESNEXT
+tsc filename.ts --target ES6
+tsc filename.ts --target ES5
+
+    Specifies ECMAScript target version.
+
+📁 Compiling Multiple Files
+
+tsc file1.ts file2.ts
+
+    Compiles multiple files at once.
+
+tsc --init
+
+    Creates a tsconfig.json file for project-wide configuration.
+
+🔹 2. Working with tsconfig.json
+
+Once you have tsconfig.json, you can simply run:
+
+tsc
+
+    This will compile the whole project based on the settings in tsconfig.json.
+
+tsc --watch
+
+    Watches for changes and re-compiles automatically.
+
+tsc --project tsconfig.json
+
+    Compiles based on a specific tsconfig.json file.
+
+🔹 3. Output Control
+
+tsc filename.ts --outDir dist/
+
+    Places compiled files in the dist/ directory.
+
+tsc filename.ts --sourceMap
+
+    Generates a .map file for debugging.
+
+🔹 4. Type Checking Only (Without Output)
+
+tsc --noEmit
+
+    Checks for type errors without generating .js files.
+
+tsc --strict
+
+    Enables all strict type-checking options.
+
+🔹 5. Module System
+
+tsc filename.ts --module CommonJS
+tsc filename.ts --module ES6
+
+    Specifies the module system for output files.
+
+🔹 6. Running TypeScript Without Compilation
+
+You can run TypeScript files directly using ts-node (requires installation).
+
+npx ts-node filename.ts
+
+🔹 7. TypeScript Help
+
+tsc --help
+
+    Lists all available options.
